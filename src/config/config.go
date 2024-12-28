@@ -151,7 +151,7 @@ var DefaultConfig = Config{
 		Action: "respond",
 		Respond: UserInfoRespond{
 			Parameters: []Parameter{
-				{ID: "sub", Action: "set", Values: []string{"12345abcde"}, JSONType: "string"},
+				{ID: "sub", Action: "set", Values: []string{"testuser@example.com"}, JSONType: "string"},
 				{ID: "email", Action: "set", Values: []string{"testsub@{{.Domain}}"}, JSONType: "string"},
 			},
 		},
